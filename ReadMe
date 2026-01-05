@@ -1,0 +1,43 @@
+# Induction Motor Fault Detection using MCSA & Machine Learning
+
+## 📌 Overview
+This project implements **Motor Current Signature Analysis (MCSA)** combined with **machine learning** techniques to detect faults in an induction motor. The approach is non-invasive and suitable for condition monitoring.
+
+## ⚙️ Faults Detected
+- Broken Rotor Bar
+- Bearing Inner Race Fault
+- Bearing Outer Race Fault
+- Healthy Condition
+
+## 🛠️ Tools & Technologies
+- MATLAB (FFT, signal processing)
+- Machine Learning (Random Forest, KNN, etc.)
+- Motor Current Signature Analysis (MCSA)
+
+## 📊 Methodology
+1. Stator current acquisition
+2. Signal conditioning and FFT
+3. Feature extraction in frequency domain
+4. ML-based fault classification
+5. Performance evaluation using accuracy and confusion matrix
+
+## 📈 Results
+- Random Forest and KNN achieved highest accuracy
+- Ensemble and instance-based models performed better than linear models
+
+## 📁 Dataset
+Dataset used from:
+- Mehran University of Engineering & Technology  
+https://data.mendeley.com/datasets/gxdd74czwh/1
+
+## 📄 Report
+Detailed project report is available in the `report/` folder.
+
+## 👨‍🎓 Authors
+- Muhammad Jahan Zaib  
+- Sami Haider Mirza  
+- Muhammad Hussain  
+- Rana Muhammad Bilal  
+
+Department of Electrical Engineering  
+SEECS, NUST
